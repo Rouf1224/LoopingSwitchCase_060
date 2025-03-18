@@ -16,6 +16,10 @@ int main(){
     //Perulangan for untuk pencacah turun
     cout << "Perulangan for pencacah turun" << endl;
     for (i = 4; i >= 0; i--){
-        cout << "Nilai i : " << i;
+        cout << "Nilai i : " << i
+        << "Lari keliling lapngan" << endl;
+
     } 
+
+    cout << "Nilai i terakhir : " << i << endl;
 }
