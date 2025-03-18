@@ -22,7 +22,26 @@ int main(){
         cin >> pilihan;
 
         switch(pilihan) {
-            
-        }
+            case 1 :
+            cout << "Menghitung Luas Persegi Panjang" << endl;
+            cout << "Masukan Panjang : ";
+            cin >> panjang;
+            cout << "Masukan Lebar : ";
+            cin >> lebar;
+            cout << "Luas Persegi Panjang : " <<
+            LuasPersegiPanjang(panjang,lebar) << endl;
+            cout << endl;
+            break;
+
+            case 2:
+            cout << "Menghitung Luas Lingkaran" << endl;
+            cout << "Masukan Jejari : ";
+            cin >> jejari;
+            cout << "Luas Lingkaran : " <<
+            LuasLingkaran(jejari) << endl;
+            cout << endl;
+            break;
     }
 }
+}
+
